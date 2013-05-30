@@ -1,0 +1,17 @@
+<root>
+	<forms title="Inbox"> 
+	<formItem text="Pen Name" image="asset:///images/new.png" description="Showcase Form" status="new" time="8:00" />
+	<formItem text="Pen Name2" image="asset:///images/opened.png" description="Showcase Form2" status="opened" time="8:00" />
+	<formItem text="Pen Name3" image="asset:///images/opened.png" description="Showcase Form" status="opened" time="8:00" />
+	</forms>
+	<forms title="Outbox"> 
+	<formItem text="Pen Name" image="asset:///images/opened.png" description="Showcase Form" status="sending" time="8:00" />
+	<formItem text="Pen Name2" image="asset:///images/opened.png" description="Showcase Form2" status="verified" time="8:00" />
+	<formItem text="Pen Name3" image="asset:///images/opened.png" description="Showcase Form" status="verified" time="8:00" />
+	</forms>
+	<forms title="Sent Items"> 
+	<formItem text="Pen Name" image="asset:///images/sent.png" description="Showcase Form" status="sent" time="8:00" />
+	<formItem text="Pen Name2" image="asset:///images/sent.png" description="Showcase Form2" status="sent" time="8:00" />
+	<formItem text="Pen Name3" image="asset:///images/sent.png" description="Showcase Form" status="sent" time="8:00" />
+	</forms>
+</root>

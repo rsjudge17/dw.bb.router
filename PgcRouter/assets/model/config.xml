@@ -1,0 +1,75 @@
+<config>
+	<debug test="true" default="false" />
+	<appName default="Destiny Router" />
+	<appVersion default="0.0.1" />
+	<deviceName default="" />
+	<platformVersion default="" />
+	<trackerSupport test="false" default="false" />
+	<fmUrl default="http://router.destinyplc.com/router/start" test="" />
+	<jmsUrl default="http://jms.destinyplc.com/web-services/MobileUpdateService" test="" />
+	<forms>
+		<dir test="data/" default="data/" />
+		<filename test="forms_t.json" default="forms.json" />
+		<inboxDir test="data/inbox/" default="data/inbox/" />
+		<inboxFile test="inbox.json" default="inbox.json" />
+		<outboxDir test="data/outbox/" default="data/outbox/" />
+		<outboxFile test="outbox_t.json" default="outbox.json" />
+		<sentItemsDir test="data/sentitems/" default="data/sentitems/" />
+		<sentItemsFile test="sentitems_t.json" default="sentitems.json" />
+		<bluetoothDir test="sharewith/bluetooth/" default="sharewith/bluetooth/" />
+	</forms>	
+	<locations>
+		<dir test="data/" default="data/" />
+		<filename test="loc_t.json" default="loc.json" />
+		<inboxDir test="data/inbox/" default="data/inbox/" />
+		<inboxFile test="inbox_loc.json" default="inbox_loc.json" />
+		<outboxDir test="data/outbox/" default="data/outbox/" />
+		<outboxFile test="outbox_loc_t.json" default="outbox_loc.json" />
+		<sentItemsDir test="data/sentitems/" default="data/sentitems/" />
+		<sentItemsFile test="sentitems_loc_t.json" default="sentitems_loc.json" />
+	</locations>
+	<settings>
+		<general>
+			<maxStorageDays value="7" default="7" test="1" />
+			<mobileNumber value="" default="" test="" />
+			<billableEvents value="true" default="true" test="false" />
+		</general>
+		<verification>
+			<autoStart value="true" default="true" test="false" />
+			<alwaysAttachPhoto value="true" default="true" test="false" />
+			<fileType value="pgs" default="pgs" test="pgc" />
+			<sendGPSDestiny value="true" default="true" test="false" />
+		</verification>
+		<tracker>
+			<pollingStartSwitch default="false" value="false" test="true" />
+			<pollingInterval default="5" value="5" test="10" />
+			<startTimeMonday default="5" value="5" test="0" />
+			<endTimeMonday default="20" value="20" test="0" />
+			<startTimeTuesday default="5" value="5" test="0" />
+			<endTimeTuesday default="20" value="20" test="0" />
+			<startTimeWednesday default="5" value="5" test="0" />
+			<endTimeWednesday default="20" value="20" test="0" />
+			<startTimeThursday default="5" value="5" test="0" />
+			<endTimeThursday default="20" value="20" test="0" />
+			<startTimeFriday default="5" value="5" test="0" />
+			<endTimeFriday default="20" value="20" test="0" />
+			<startTimeSaturday default="0" value="0" test="0" />
+			<endTimeSaturday default="0" value="0" test="0" />
+			<startTimeSunday default="0" value="0" test="0" />
+			<endTimeSunday default="0" value="0" test="0" />
+		</tracker>
+	</settings>
+	<support>
+		<supportNumber default="0871 437 0077" />
+		<supportEmail default="support@destinywireless.com" />
+		<webSite default="http://www.destinywireless.com" />
+	</support>
+	<help>
+		<formVerfication test="" default="asset:///html/form_verfication.html" />
+	</help>
+	<logs>
+		<pgcRouter test="" default="logs/pgcrouter.json" />
+		<pgcVerifier test="" default="logs/pgcverifier.json" />
+		<pgcSender test="" default="logs/pgcsender.json" />
+	</logs>
+</config>
